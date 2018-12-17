@@ -17,3 +17,5 @@ save any tf.Variable to your file system.
   2. regularization
   apply artificial constraints on your network, implicitly reduce the number of free parameters (make the skinny jeans right to fit in)
   L2 regularization: add another term to the loss to penalize large weights ... + 1/2 ||w||^2, derivative is just w
+  3. dropout
+  Dropout is a regularization technique for reducing overfitting. The technique temporarily drops units (artificial neurons) from the network, along with all of those units' incoming and outgoing connections. [paper](http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf)
