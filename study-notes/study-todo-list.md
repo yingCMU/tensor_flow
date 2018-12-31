@@ -1,2 +1,0 @@
-1. L12 - [TensorFlow final lab](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/6b6c37bc-13a5-47c7-88ed-eb1fce9789a0/lessons/f035a45d-6203-4947-8175-6095862204d3/concepts/cbcb68d7-7575-442c-82d4-f796ad82b00a)
-2. L13 - [dropout](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/6b6c37bc-13a5-47c7-88ed-eb1fce9789a0/lessons/c547d47e-bc84-434a-a72f-fd654be582f9/concepts/3cb3c513-935a-48c2-8ca7-195d4084c5da)
