@@ -1,14 +1,18 @@
 ## python
 [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
+
 [Python data type conversion](https://www.datacamp.com/community/tutorials/python-data-type-conversion)
 ## tuning neural networks
 http://cs231n.github.io/neural-networks-3/#baby
 
-# CNN
+## CNN
 Andrej Karpathy's [CS231n](http://cs231n.github.io/) Stanford course on Convolutional Neural Networks.
+
 Michael Nielsen's [free book](http://neuralnetworksanddeeplearning.com/) on Deep Learning.
+
 Goodfellow, Bengio, and Courville's more advanced free book on Deep Learning.
-#CNN visualization
+
+## CNN visualization
 For an example of what feature map outputs look like, check out NVIDIA's results in their paper End-to-End Deep Learning for Self-Driving Cars in the section Visualization of internal CNN State.
 ## [Kaggle competition](https://www.kaggle.com/c/imagenet-object-localization-challenge)
 
