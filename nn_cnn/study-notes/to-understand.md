@@ -17,3 +17,4 @@ https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project/blob/mas
 11. Adam Optimizer: [Link](http://ruder.io/optimizing-gradient-descent/index.html#adam)
 Choosing the batch_size of Stochastic Gradient Descent: [Link](https://stats.stackexchange.com/questions/140811/how-large-should-the-batch-size-be-for-stochastic-gradient-descent)
 12. [Traffic Signs Color Detection andSegmentation in Poor Light Conditions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.5021&rep=rep1&type=pdf)
+13. transfer learning, how?
