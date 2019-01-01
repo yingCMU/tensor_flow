@@ -57,9 +57,11 @@ If using the pre-trained network as a starting point does not produce a successf
 
 ## transfer learning from ImageNet(object detection and localization)
 Pre-training a network with the ImageNet dataset is a very common way to get a strong neural network that can be used for transfer learning. With recent versions of Keras, you can easily import a pre-trained network by using the [Keras Applications models](https://keras.io/applications/)
-## AlexNet
+## AlexNet - [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 AlexNet Architecture - very complex and not every feature is necessary, but best understood and most widely used neural network
-AlexNet puts the network on two GPUs, which allows for building a larger network. Although most of the calculations are done in parallel, the GPUs communicate with each other in certain layers. The original [research paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) on AlexNet said that parallelizing the network decreased the classification error rate by 1.7% when compared to a neural network that used half as many neurons on one GPU.
-##  [VGG paper](https://arxiv.org/pdf/1409.1556.pdf)
+AlexNet puts the network on two GPUs, which allows for building a larger network. Although most of the calculations are done in parallel, the GPUs communicate with each other in certain layers. The original [research paper] on AlexNet said that parallelizing the network decreased the classification error rate by 1.7% when compared to a neural network that used half as many neurons on one GPU.
+## VGG -[VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION](https://arxiv.org/pdf/1409.1556.pdf)
 in Keras, There are actually two versions of VGG, VGG16 and VGG19 (where the numbers denote the number of layers included in each respective model)
-## [GoogLeNet/Inception paper](https://arxiv.org/pdf/1409.4842.pdf)
+## GoogLeNet/Inception -[Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
+run really fast,(can be run in realtime, like self-driving) inception model has small number of total parameters
+## ResNet - [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
