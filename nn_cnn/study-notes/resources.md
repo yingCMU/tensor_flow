@@ -11,14 +11,15 @@ Although signs are available as video sequences in the training set, temporal in
 Each stage is composed of a (convolutional) filter bank layer, a non-linear transform layer, and a spatial feature pooling layer. The spatial pooling layers lower the spatial resolution of the representation, thereby making the representation robust to small shifts and geometric distortions, similarly to “complex cells” in standard models of the visual cortex.
 
 ## [Traffic Signs Color Detection andSegmentation in Poor Light Conditions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.5021&rep=rep1&type=pdf)
-
-#CNN
+## Traffic Sign Recognition with Multi-Scale Convolutional Networks
+[link](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
+## End-to-End Deep Learning for Self-Driving Cars
+[link](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)
+## [Visualizing and Understanding Convolutional Networks](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+# CNN
 Andrej Karpathy's [CS231n](http://cs231n.github.io/) Stanford course on Convolutional Neural Networks.
 Michael Nielsen's [free book](http://neuralnetworksanddeeplearning.com/) on Deep Learning.
 Goodfellow, Bengio, and Courville's more advanced free book on Deep Learning.
 #CNN visualization
 For an example of what feature map outputs look like, check out NVIDIA's results in their paper End-to-End Deep Learning for Self-Driving Cars in the section Visualization of internal CNN State.
-## Traffic Sign Recognition with Multi-Scale Convolutional Networks
-[link](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
-## End-to-End Deep Learning for Self-Driving Cars
-[link](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)
+## [Kaggle competition](https://www.kaggle.com/c/imagenet-object-localization-challenge)
