@@ -23,8 +23,8 @@ Each stage is composed of a (convolutional) filter bank layer, a non-linear tran
 
 [Traffic Signs Color Detection andSegmentation in Poor Light Conditions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.5021&rep=rep1&type=pdf)
 
-Traffic Sign Recognition with Multi-Scale Convolutional Networks [link](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
+[Traffic Sign Recognition with Multi-Scale Convolutional Networks](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
 
-End-to-End Deep Learning for Self-Driving Cars [link](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)
+[End-to-End Deep Learning for Self-Driving Cars](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)
 
 [Visualizing and Understanding Convolutional Networks](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
