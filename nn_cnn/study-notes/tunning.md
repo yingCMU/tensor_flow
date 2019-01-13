@@ -7,3 +7,5 @@ There are various aspects to consider when thinking about this problem:
 3. Number of examples per label (some have more than others).
 4. Generate fake data.
 [paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
+
+5.

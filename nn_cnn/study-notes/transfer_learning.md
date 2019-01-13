@@ -48,12 +48,13 @@ Even though the data set is different from the training data, initializing the w
 
 If using the pre-trained network as a starting point does not produce a successful model, another option is to randomly initialize the convolutional neural network weights and train the network from scratch.
 
-| Network      | Error %   |
-| ----------- | ----------- |
-| Winner of ImageNet| 26%      |
-| AlexNet   | 15%        |
-| VGG   | 7.3%        |
-| GoogleNet   | 6.7%        |
+| Network      | Error %  | Layers |
+| ----------- | --------- |--------|
+| Winner of ImageNet| 26% |        |
+| AlexNet     | 15%       | 8      |
+| VGG         | 7.3%      | 19     |
+| GoogleNet   | 6.7%      | 22     |
+| ResNet      | 3%        | 152    |
 
 ## transfer learning from ImageNet(object detection and localization)
 Pre-training a network with the ImageNet dataset is a very common way to get a strong neural network that can be used for transfer learning. With recent versions of Keras, you can easily import a pre-trained network by using the [Keras Applications models](https://keras.io/applications/)
@@ -65,3 +66,5 @@ in Keras, There are actually two versions of VGG, VGG16 and VGG19 (where the num
 ## GoogLeNet/Inception -[Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
 run really fast,(can be run in realtime, like self-driving) inception model has small number of total parameters
 ## ResNet - [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+152 layers
+a

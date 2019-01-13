@@ -7,19 +7,34 @@
   2.lots of phenomena tend to have a hierarchical structure, as a result, the model has easier time learning then.  e.g image processing line edges->part shapes -> objects
 ## Save and Restore TensorFlow Models
 save any tf.Variable to your file system.
-
+## feature scaling/ data normalization
+1. Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. For example, the majority of classifiers calculate the distance between two points by the Euclidean distance. If one of the features has a broad range of values, the distance will be governed by this particular feature. Therefore, the range of all features should be normalized so that each feature contributes approximately proportionately to the final distance.
+2. Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
+### methods
 ## regularization
 1. skinny jeans problem, why?
   network that is just right size for the data is very hard to optimize, so instead train networks that are way to big for data
   and then try our best to prevent them from overfitting
-2. how to prevent overfitting
+### overfitting
+[The problem of overfitting](https://pdfs.semanticscholar.org/f65e/e7b52912f8485dc0411a40ccebf5f3f2afef.pdf)
+Overfitting is especially likely in cases where learning was performed too long or where training examples are rare, causing the learner to adjust to very specific random features of the training data, that have no causal relation to the target function.
+### Regularization
+Regularization can be motivated as a technique to improve the generalizability of a learned model.
+Typically in learning problems, only a subset of input data and labels are available, measured with some noise. Therefore, the expected error is unmeasurable, and the best surrogate available is the empirical error over the {\displaystyle N} N available samples. Without bounds on the complexity of the function space available, a model will be learned that incurs zero loss on the surrogate empirical error. If measurements (e.g. of {\displaystyle x_{i}} x_{i}) were made with noise, this model may suffer from overfitting and display poor expected error. Regularization introduces a penalty for exploring certain regions of the function space used to build the model, which can improve generalization.
+
+Generally, a learning algorithm is said to overfit relative to a simpler one if it is more accurate in fitting known data (hindsight) but less accurate in predicting new data (foresight). One can intuitively understand overfitting from the fact that information from all past experience can be divided into two groups: information that is relevant for the future and irrelevant information ("noise"). Everything else being equal, the more difficult a criterion is to predict (i.e., the higher its uncertainty), the more noise exists in past information that needs to be ignored. The problem is determining which part to ignore. A learning algorithm that can reduce the chance of fitting noise is called "robust."
+
+ R(f) is typically chosen to impose a penalty on the complexity of f
+  {\displaystyle \lambda } \lambda  is a parameter which controls the importance of the regularization term
   1. early termination: look at the performance of validation set and stop training(reach the point of overfitting) as soon as it stops improving
   2. regularization
   apply artificial constraints on your network, implicitly reduce the number of free parameters (make the skinny jeans right to fit in)
   L2 regularization: add another term to the loss to penalize large weights ... + 1/2 ||w||^2, derivative is just w
   3. dropout
   Dropout is a regularization technique for reducing overfitting. The technique temporarily drops units (artificial neurons) from the network, along with all of those units' incoming and outgoing connections. [paper](http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf)
-
+### dropout
+1. [Improving neural networks by preventing co-adaptation of feature detectors](https://arxiv.org/pdf/1207.0580.pdf)
+2. [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
 ## how to find a solution?
 While designing the architecture, it is important to consider the following questions.
 

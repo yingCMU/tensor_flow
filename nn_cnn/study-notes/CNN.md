@@ -13,7 +13,11 @@ It's amazing how well a CNN can learn to classify images, even though we never p
 
 What's important here is that we are grouping together adjacent pixels and treating them as a collective.
 In a normal, non-convolutional neural network, we would have ignored this adjacency. In a normal network, we would have connected every pixel in the input image to a neuron in the next layer. In doing so, we would not have taken advantage of the fact that pixels in an image are close together for a reason and have special meaning.By taking advantage of this local structure, our CNN learns to classify local patterns, like shapes and objects, in an image.
+## bias - variance
+The bias–variance dilemma or problem is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set:[citation needed]
 
+The bias is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting).
+The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting).
 ## Filter Depth
 It's common to have more than one filter. Different filters pick up different qualities of a patch. For example, one filter might look for a particular color, while another might look for a kind of object of a specific shape. The amount of filters in a convolutional layer is called the filter depth.
 ## How many neurons does each patch connect to?
