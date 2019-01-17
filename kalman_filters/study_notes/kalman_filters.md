@@ -9,4 +9,7 @@
 but the new peak will NOT be between the heights of the other two. In fact, it will be higher!
 This is because more measurements always gives us more certainty.
 ![alt text][kf-gaussian]
+
+Notice that the new mean is between the previous two means and the new variance is LESS than either of the previous variances.
+
 ![alt text][kf-math]
