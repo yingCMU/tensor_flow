@@ -5,6 +5,9 @@
 ## tuning neural networks
 http://cs231n.github.io/neural-networks-3/#baby
 
+## backprop
+[yes-you-should-understand-backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b?email=liyingcmu%40gmail.com&g-recaptcha-response)
+
 ## CNN
 Andrej Karpathy's [CS231n](http://cs231n.github.io/) Stanford course on Convolutional Neural Networks.
 
